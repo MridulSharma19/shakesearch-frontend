@@ -1,0 +1,23 @@
+.box{
+    position: absolute;
+width: 600px;
+height: 763px;
+left: 900px;
+top: 73px;
+
+background: #FFFFFF;
+opacity: 0.5;
+box-shadow: 0px 2px 6px 4px rgba(189, 170, 165, 0.1);
+border-radius: 9px;
+}
+
+.clear{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.pagin{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}

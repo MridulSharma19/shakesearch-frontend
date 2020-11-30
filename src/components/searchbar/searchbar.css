@@ -1,0 +1,30 @@
+.searchbar{
+position: absolute;
+width: 672.45px;
+height: 51.47px;
+left: 343px;
+top: 425.52px;
+
+border: 1.5px solid #E1DDD7;
+font-family: Mrs Eaves OT;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 45px;
+background-color: #E1DDD7;
+}
+input:focus{
+    outline:none
+}
+.icon{
+position: absolute;
+left: 300px;
+top: 433.52px;
+}
+.scribble{
+position: absolute;
+width: 672.45px;
+height: 51.47px;
+left: 240px;
+top: 472.52px;
+}
