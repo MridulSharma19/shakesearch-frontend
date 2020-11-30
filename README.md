@@ -1,3 +1,8 @@
+# This is the frontend code that I wrote for shakesearch webapp
+# The main purpose of this repo is just code inspection
+# If you want to run this code in development along with the backend then you'll have to enable CORS in the backend first. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
