@@ -10,9 +10,9 @@ const Mainpage = ()=>{
     return(
         <div className='Mainpage'>
             <div className="Name">Shakesearch</div>
-            <Searchbar setShow={setShow} setResult={setResult} />
+            <Searchbar setShow={setShow} showResult={showResult} setResult={setResult} />
             {!showResult?<div className="potrait">
-                <img src="/image 28.png" width="100%" height="100%"/>
+                <img src="/image 28.png" width="auto" height="100%"/>
             </div>
             :null}
     

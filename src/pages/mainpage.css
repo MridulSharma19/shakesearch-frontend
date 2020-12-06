@@ -25,14 +25,23 @@
         to {right: 0px;opacity: 1;}
       }
       
+
       
     
 .potrait{
 position: absolute;
-width: 499px;
-height: 607px;
-top: 325.48px;
+width:auto;
+height:60vh;
+bottom:0px;
 right: 0px;
 animation-name: example; 
 animation-duration: 1s;
 }    
+@media only screen and (max-width: 680px) {
+    .potrait {
+        height:45vh;
+    }
+  }
+
+
+  

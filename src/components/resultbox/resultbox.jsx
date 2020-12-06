@@ -30,8 +30,8 @@ const Results=({setShow,result})=>{
         totalPosts={result.length}
         paginate={paginate}
       /> */}
-      <div className="pagin">
-          {currentPage!==1?<NavigateBeforeIcon onClick={()=>setCurrentPage(currentPage-1)}/> : null } {currentPage} of {totalpages} {currentPage!==totalpages? <NavigateNextIcon onClick={()=>setCurrentPage(currentPage+1)} /> :null}
+      <div className="pagin" >
+          {currentPage!==1?<NavigateBeforeIcon onClick={()=>setCurrentPage(currentPage-1)}/> : null } {currentPage} of {totalpages} {currentPage!==totalpages? <NavigateNextIcon  onClick={()=>setCurrentPage(currentPage+1)} /> :null}
       </div>
     </div>
   

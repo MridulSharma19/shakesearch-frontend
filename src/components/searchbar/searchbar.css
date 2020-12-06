@@ -1,16 +1,16 @@
 .searchbar{
 position: absolute;
-width: 672.45px;
-height: 51.47px;
-left: 343px;
-top: 425.52px;
+width: 40vw;
+height: 10vh;
+left: 20vw;
+top: 40vh;
 
 border: 1.5px solid #E1DDD7;
 font-family: Mrs Eaves OT;
 font-style: normal;
 font-weight: normal;
-font-size: 42px;
-line-height: 45px;
+font-size: 3vw;
+line-height: 4vw;
 background-color: #E1DDD7;
 }
 input:focus{
@@ -18,13 +18,35 @@ input:focus{
 }
 .icon{
 position: absolute;
-left: 300px;
-top: 433.52px;
+height:3vw;
+width: auto;
+left: 16vw;
+top: 43vh;
 }
 .scribble{
 position: absolute;
-width: 672.45px;
-height: 51.47px;
-left: 240px;
-top: 472.52px;
+width: 40vw;
+height: auto;
+left: 14vw;
+top: 50vh;
+animation-name: scrib; 
+animation-duration: 1s;
 }
+@keyframes scrib {
+    from {left: 0px; opacity: 0.1;}
+    to {left:14vw ;opacity: 1;}
+  }
+
+  @media only screen and (max-width: 680px) {
+    .searchbar {
+        font-size: 3vh;
+        line-height: 4vh;
+        width: 60vw;
+    }
+    .icon{
+        height:3vh;
+    }
+    .scribble{
+        width: 60vw;
+    }
+  }  

@@ -5,13 +5,13 @@ const Res = ({ res}) => {
  
   return (
     <ul className='txt' >
-      {res.map(result => (
+      {res?res.map(result => (
         <li  style={{ listStyleType: "none" }}>
           <p>{result}</p>
           
         </li>
        
-      ))}
+      )):null}
     </ul>
   );
 };

@@ -5,9 +5,24 @@ padding: 10%;
 font-family: Courier;
 font-style: normal;
 font-weight: bold;
-font-size: 13px;
-line-height: 15px;
+font-size: 0.75vw;
+line-height: 0.85vw;
+
 
 color: #000000;
 
 }
+@media only screen and (max-width:1050px) {
+    .txt{
+        padding: 10%;
+        font-family: Courier;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2vh;
+        line-height: 1.2vh;
+        
+    }
+  }
+  
+  
+  
